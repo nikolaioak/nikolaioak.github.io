@@ -15,34 +15,24 @@
         <h1>nikolai makes beer</h1>
         <div class="box">
             <div class="innerbox">
-                <p>hey, i'm nikolai and i make beer. i'd  love to show you what i've been up to lately. if you're in the ~place~ 
-                    area, you might even get a chance to try some!</p>
+                <p>hey, i'm nikolai and i make beer.  <img src="./img/nikolaimakesbeer-favicon.ico"><br/><br/>
+                    i'd  love to show you what i've been up to lately. if you're in the ~place~ 
+                    area, reach out - i'd love to share!</p>
                 <h2>What's the latest?</h2>
-                who knows, really...
+                everything! this site is a work in progress and I'm still refining the final setup. see my todo list below
                 <h2>todo</h2>
                 <ul>
-                    <li>update footer with social links and blurb</li>
                     <li>write a blurb for the about page</li>
-                    <li>create a variation of the layout for the beer page, 
-                        will need to contain a grid of images with titles</li>
-                    <li>go through my stuff and gather info about all my beers</li>
+                    <li>build an image gallery for the beer page - each item should have a pixel icons and link to the beer details page with the appropriate query parameter. should source the data from beer-data.json</li>
+                    <li>build the beer details page template out and dynamically reference beer-data.json</li>
+                    <li>fill out the rest of the info about my beers once we're comfortable with the data schema</li>
                 </ul>
             </div>
-            <!--can use either right corner or left corner.-->
-            <img src="./img/beerisdrank.gif" class="rightcorner">
-            <div class="sidebox">
-                <p>navigation</p>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="beer.html">beer</a></li>
-                    <li><a href="wordle.html">wordle4fun</a></li>
-                    <li><a href="credits.html">credits</a></li>
-                </ul>
-            </div>
+            <!--can use either right corner or left corner.--> 
+            <img src="./img/beerisdrank.gif" class="rightcorner"> 
+            <div id="nav-menu" class="sidebox"></div>
         </div>
     </body>
-    <footer>
-
-    </footer>
+    <footer id="page-footer"></footer>
+    <script async src="./js/templates.js"></script>
 </html>
