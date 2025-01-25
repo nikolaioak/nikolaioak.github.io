@@ -1,6 +1,6 @@
 {
-    "$id": "https://nikolaimakes.beer/beer-data.schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://nikolaimakes.beer/beer-data.schema.json",
     "title": "nikolaimakesbeer beer data schema",
     "description": "This schema will ensure all beer details pages load with the correct data",
     "$defs": {
@@ -25,6 +25,9 @@
                 "beerBlurb"
             ],
             "properties": {
+                "id": {
+                    "type": "string"
+                },
                 "name": {
                     "type": "string"
                 },

@@ -1,5 +1,5 @@
 {
-    "$schema": "./beer-data.schema.json",
+    "$schema": "https://nikolaimakes.beer/beer-data.schema.json",
     "beerData": [
         {
             "id": "AlexandreImperial.2",
