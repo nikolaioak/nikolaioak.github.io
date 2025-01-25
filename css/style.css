@@ -1,0 +1,265 @@
+/* change the colors here! */
+:root {
+    --bad: #bf616a;
+    --ohno: #d08770;
+    --maybe: #ebcb8b;
+    --awesome: #a3be8c;
+    --whoa: #b48ead;
+
+    --thenight: #2e3440;
+    --almostnight: #3b4252;
+    --lightnight: #434c5e;
+    --evening: #4c566a;
+
+    --ice: #d8dee9;
+    --clear: #e5e9f0;
+    --bright: #eceff4;
+
+    --calm: #8fbcbb;
+    --shiny: #88c0d0;
+    --arctic: #81a1c1;
+    --deep: #5e81ac;
+
+    --bgcolor: var(--evening);
+    --lightcolor: var(--clear);
+    --popcolor: var(--arctic);
+    --darkcolor: var(--almostnight);
+    --darkestcolor: var(--thenight);
+}
+
+/* the rest of the layout vv */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: var(--darkestcolor);
+    font-family: "Baloo Paaji 2", "Atkinson Hyperlegible", Verdana, sans-serif;
+    z-index: 1;
+}
+
+::selection {
+    background-color: var(--popcolor)
+}
+
+h1 {
+    color: var(--lightcolor);
+    font-family: "Bagel Fat One", "Arial Black", sans-serif;
+    font-size: 50pt;
+    font-weight: normal;
+    text-shadow: 2px 2px var(--darkcolor);
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: -25px;
+    position: relative;
+    z-index: 4;
+}
+
+a {
+    color: var(--darkestcolor);
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: dotted underline 1px;
+    text-shadow: var(--bgcolor) 1px 1px;
+}
+
+a:hover {
+    color: var(--popcolor)
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: var(--darkcolor) 2px solid;
+    background-color: var(--lightcolor);
+    box-shadow: var(--bgcolor) 3px 3px;
+    border-radius: 3px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14pt;
+    color: inherit;
+}
+
+button:active {
+    box-shadow: none;
+    border-color: var(--darkestcolor)
+}
+
+button:hover,
+button:focus {
+    border-color: var(--popcolor)
+}
+
+.box {
+    border: var(--darkcolor) 6px solid;
+    border-radius: 6px;
+    width: 600px;
+    max-width: 100%;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+
+.innerbox {
+    width: 100%;
+    height: 100%;
+    background-color: var(--lightcolor);
+    overflow: auto;
+    line-height: 1.2;
+    position: relative;
+    z-index: 3;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--popcolor) var(--lightcolor);
+}
+
+
+
+.sidebox {
+    position: absolute;
+    height: 200px;
+    right: -25px;
+    top: 80px;
+    width: 150px;
+    line-height: 1.3;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+    text-align: center;
+    z-index: 1;
+    transition: 0.5s;
+    padding-right: 25px;
+    box-shadow: 5px 0px 5px inset var(--darkestcolor);
+    border-left: 6px solid var(--darkcolor);
+    overflow: hidden;
+}
+
+.sidebox p {
+    position: absolute;
+    background-color: var(--darkcolor);
+    z-index: -1;
+    transform: rotate(270deg);
+    right: -23px;
+    top: 45%;
+    margin: 0;
+    line-height: 0.8;
+}
+
+.sidebox ul {
+    list-style-type: none;
+    padding: 0;
+    height: 190px;
+    margin: 5px;
+    margin-left: -5px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--popcolor) var(--lightcolor);
+    overflow: auto;
+}
+
+.sidebox li {
+    margin: 5px;
+}
+
+.sidebox a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: var(--popcolor);
+    text-shadow: none;
+}
+
+.sidebox a:hover {
+    background-color: var(--popcolor);
+    color: var(--darkestcolor)
+}
+
+.sidebox:hover,
+.sidebox:focus {
+    position: absolute;
+    right: -150px;
+}
+
+.leftcorner {
+    position: absolute;
+    bottom: -75px;
+    left: -75px;
+    max-height: 150px;
+    z-index: 5;
+}
+
+.rightcorner {
+    position: absolute;
+    bottom: -75px;
+    right: -75px;
+    max-height: 150px;
+    z-index: 5;
+}
+
+/* modifications for smaller screens - most notably changing the navigation tab's location and appearance so it moves to the bottom of the box. */
+
+@media only screen and (max-width: 889px) {
+    .sidebox {
+        top: unset;
+        right: 75px;
+        bottom: -23px;
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 20px;
+        border-left: none;
+        border-top: 6px var(--darkcolor) solid;
+        box-shadow: 0px 5px 5px inset var(--darkestcolor);
+        padding: unset;
+
+    }
+
+    .sidebox p {
+        transform: unset;
+        bottom: 5px;
+        top: unset;
+        right: unset;
+        left: 26%;
+    }
+
+    .sidebox:hover,
+    .sidebox:focus {
+        right: 75px;
+        bottom: -200px;
+    }
+
+    .sidebox ul {
+        height: 160px;
+        margin: 5px;
+        margin-left: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .leftcorner {
+        display: none;
+    }
+
+    .rightcorner {
+        display: none;
+    }
+
+}
+
+/* temporary fix for mobile; this makes the nav menu always-expanded on mobile, because it was broken in safari on iphones. working on another option. stay tuned. */
+
+@media only screen and (max-width: 500px) {
+    .sidebox {
+        top: 440px;
+        right: 0;
+    }
+
+    .sidebox:hover,
+    .sidebox:focus {
+        top: 440px;
+        right: 0;
+    }
+}
