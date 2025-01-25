@@ -117,8 +117,6 @@ button:focus {
     scrollbar-color: var(--popcolor) var(--lightcolor);
 }
 
-
-
 .sidebox {
     position: absolute;
     height: 200px;
@@ -200,6 +198,56 @@ button:focus {
     z-index: 5;
 }
 
+.footer-links {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+}
+
+.footer-links ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+.footer-links li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.footer-links li:hover ~ li img {
+    animation: wave-animation 0.3s infinite;
+}
+
+.footer-links a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: var(--darkestcolor);
+    text-shadow: none;
+}
+
+.footer-links a:hover {
+    background-color: var(--popcolor);
+    color: var(--darkestcolor)
+}
+
+@keyframes wave-animation {
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(20deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+}
+
 /* modifications for smaller screens - most notably changing the navigation tab's location and appearance so it moves to the bottom of the box. */
 
 @media only screen and (max-width: 889px) {
@@ -213,7 +261,6 @@ button:focus {
         border-top: 6px var(--darkcolor) solid;
         box-shadow: 0px 5px 5px inset var(--darkestcolor);
         padding: unset;
-
     }
 
     .sidebox p {
@@ -263,3 +310,9 @@ button:focus {
         right: 0;
     }
 }
+
+@media (min-width: 500px) {
+    .footer-links ul {
+      grid-auto-flow: column;
+    }
+  }
