@@ -282,7 +282,6 @@ button:focus {
         margin: 5px;
         margin-left: 5px;
     }
-
 }
 
 @media only screen and (max-width: 760px) {
@@ -294,25 +293,13 @@ button:focus {
         display: none;
     }
 
+    .footer-links {
+        height: 40vh;
+    }
 }
-
-/* temporary fix for mobile; this makes the nav menu always-expanded on mobile, because it was broken in safari on iphones. working on another option. stay tuned. */
-
-/* @media only screen and (max-width: 500px) {
-    .sidebox {
-        top: 440px;
-        right: 0;
-    }
-
-    .sidebox:hover,
-    .sidebox:focus {
-        top: 440px;
-        right: 0;
-    }
-} */
 
 @media (min-width: 500px) {
     .footer-links ul {
-      grid-auto-flow: column;
+        grid-auto-flow: column;
     }
-  }
+}
