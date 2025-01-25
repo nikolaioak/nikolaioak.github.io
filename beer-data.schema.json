@@ -1,0 +1,84 @@
+{
+    "$id": "https://nikolaimakes.beer/beer-data.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "nikolaimakesbeer beer data schema",
+    "description": "This schema will ensure all beer details pages load with the correct data",
+    "$defs": {
+        "beerData": {
+            "$ref": "#/$defs/BeerDataType"
+        },
+        "BeerDataType": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "$ref": "#/$defs/BeerType"
+            }
+        },
+        "BeerType": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "name",
+                "beerType",
+                "startDate",
+                "endDate",
+                "beerBlurb"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "beerType": {
+                    "type": "string"
+                },
+                "startDate": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "endDate": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "ingredients": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/IngredientsType"
+                    }
+                },
+                "ibu": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 120
+                },
+                "originalGravity": {
+                    "type": "number"
+                },
+                "specificGravity": {
+                    "type": "number"
+                },
+                "beerBlurb": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Short blurb about the brewing process. Uses array to split up sections if desired."
+                }
+            }
+        },
+        "IngredientsType": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "quantity": {
+                    "type": "number"
+                },
+                "uom": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

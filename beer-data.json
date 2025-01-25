@@ -1,0 +1,61 @@
+{
+    "$schema": "./beer-data.schema.json",
+    "beerData": [
+        {
+            "id": "AlexandreImperial.2",
+            "name": "Alexandre Imperial",
+            "beerType": "Russian Imperial Stout",
+            "startDate": "2022-12-04",
+            "endDate": "2023-01-06",
+            "ingredients": [
+                {
+                    "name": "Dark LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Dark DME",
+                    "quantity": 2,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Maltodextrin",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Cara Munich Dark",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Black Barley",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Chocolate Wheat",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Columbus Hops",
+                    "quantity": 2,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 55,
+            "originalGravity": 1.072,
+            "specificGravity": 1.020,
+            "beerBlurb": [
+                "This russian imperial stout is dark, thick, and <i>usually</i> strong - this brew spent a week in primary and another four weeks in secondary fermentation, then bottles for two weeks to condition.",
+                "The ABV came out a bit low and I was quite surprised due to the amount of time I left it in secondary."
+            ]
+        }
+    ]
+}
