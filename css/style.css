@@ -294,7 +294,25 @@ button:focus {
     }
 
     .footer-links {
-        height: 40vh;
+        height: 80vh;
+    }
+}
+
+/* temporary fix for mobile; this makes the nav menu always-expanded on mobile, because it is broken in safari on ios. */
+@media only screen and (max-width: 500px) {
+    .sidebox {
+        top: 440px;
+        right: 0;
+    }
+
+    .sidebox:hover,
+    .sidebox:focus {
+        top: 440px;
+        right: 0;
+    }
+
+    .footer-links {
+        height: 100vh;
     }
 }
 
