@@ -1,13 +1,13 @@
 let navMenuHTML = `
     <p>navigation</p>
     <ul>
-        <li><a href="index">home</a></li>
-        <li><a href="about">about</a></li>
-        <li><a href="beer">beer</a></li>
-        <li><a href="tinkering">tinkering</a></li>
-        <li><a href="blurbs">blurbs</a></li>
-        <li><a href="wordle">wordle4fun</a></li>
-        <li><a href="credits">credits</a></li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="beer.html">beer</a></li>
+        <li><a href="tinkering.html">tinkering</a></li>
+        <li><a href="blurbs.html">blurbs</a></li>
+        <li><a href="wordle.html">wordle4fun</a></li>
+        <li><a href="credits.html">credits</a></li>
     </ul>
 `;
 document.getElementById("nav-menu").innerHTML = navMenuHTML;
