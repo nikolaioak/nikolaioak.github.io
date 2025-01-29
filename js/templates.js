@@ -5,7 +5,6 @@ let navMenuHTML = `
         <li><a href="about.html">about</a></li>
         <li><a href="beer.html">beer</a></li>
         <li><a href="tinkering.html">tinkering</a></li>
-        <li><a href="blurbs.html">blurbs</a></li>
         <li><a href="wordle.html">wordle4fun</a></li>
         <li><a href="credits.html">credits</a></li>
     </ul>
