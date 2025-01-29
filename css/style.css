@@ -248,6 +248,27 @@ button:focus {
     }
 }
 
+.beer-container {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: auto auto auto;
+}
+
+.beer-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16px;
+}
+
+.beer-item h4 {
+    text-align: center;
+}
+
+.beer-item a:hover > img {
+    animation: wave-animation 0.3s infinite;
+}
+
 /* modifications for smaller screens - most notably changing the navigation tab's location and appearance so it moves to the bottom of the box. */
 
 @media only screen and (max-width: 889px) {
