@@ -269,6 +269,18 @@ button:focus {
     animation: wave-animation 0.3s infinite;
 }
 
+.stats-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.stats-table 
+
+.ingred-table {
+    table-layout: fixed;
+    width: 50%;
+}
+
 /* modifications for smaller screens - most notably changing the navigation tab's location and appearance so it moves to the bottom of the box. */
 
 @media only screen and (max-width: 889px) {

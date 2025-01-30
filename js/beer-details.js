@@ -25,7 +25,7 @@ getBeers().then(beers => {
             let beerDt = new Date(Date.parse(beer.startDate));
             let beerMon = beerDt.toLocaleString('default', { month: 'short' });
             let beerYr = beerDt.getFullYear();
-            statsHTML += `<table>
+            statsHTML += `<table class="stats-table">
                             <tr>
                                 <th>I made this...</th>
                                 <th>Type</th>
@@ -45,7 +45,7 @@ getBeers().then(beers => {
                         </table>`;
             beer.ingredients.forEach((ing, idx) => {
                 if (idx == 0) {
-                    ingredHTML  += `<table>`;
+                    ingredHTML  += `<table class="ingred-table"`;
                 }
                 ingredHTML += `<tr>
                                 <td>${ing.quantity}</td>
