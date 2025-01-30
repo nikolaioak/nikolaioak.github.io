@@ -21,6 +21,9 @@ getBeers().then(beers => {
     let blurbHTML =  '';
     beers.forEach(beer => {
         if (beer.id === beerId) {
+            let beerDt = new Date(Date.parse(beer.startDate));
+            let beerMon = beerDt.toLocaleString('default', { month: 'short' });
+            let beerYr = beerDt.getFullYear();
             statsHTML += `<table>
                             <tr>
                                 <th>I made this...</th>
@@ -31,12 +34,12 @@ getBeers().then(beers => {
                                 <th>ABV</th>
                             </tr>
                             <tr>
-                                <td>${beer.startDate} - ${beer.endDate}</td>
+                                <td>${beerMon} ${beerYr}</td>
                                 <td>${beer.beerType}</td>
                                 <td>${beer.ibu}</td>
                                 <td>${beer.originalGravity}</td>
                                 <td>${beer.specificGravity}</td>
-                                <td>${(beer.originalGravity - beer.specificGravity)*131.25} %</td>
+                                <td>${Math.round(((beer.originalGravity - beer.specificGravity)*131.25)*10)/10} %</td>
                             </tr>
                         </table>`;
             beer.ingredients.forEach((ing, idx) => {
