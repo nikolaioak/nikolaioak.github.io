@@ -269,6 +269,10 @@ button:focus {
     animation: wave-animation 0.3s infinite;
 }
 
+.float-right {
+    float: right;
+}
+
 .stats-table {
     table-layout: fixed;
     width: 100%;
