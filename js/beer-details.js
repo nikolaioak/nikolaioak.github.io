@@ -28,7 +28,7 @@ getBeers().then(beers => {
             statsHTML += `<table class="stats-table">
                             <tr>
                                 <th>I made this...</th>
-                                <th>Type</th>
+                                <th class="type-head">Type</th>
                                 <th>IBU</th>
                                 <th>OG</th>
                                 <th>SG</th>

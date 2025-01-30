@@ -269,8 +269,8 @@ button:focus {
     animation: wave-animation 0.3s infinite;
 }
 
-.float-right {
-    float: right;
+.float-left {
+    float: left;
 }
 
 .stats-table {
@@ -278,7 +278,9 @@ button:focus {
     width: 100%;
 }
 
-.stats-table 
+.stats-table th.type-head {
+    width: 25%;
+}
 
 .ingred-table {
     table-layout: fixed;
