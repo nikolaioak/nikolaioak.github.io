@@ -56,6 +56,158 @@
                 "This russian imperial stout is dark, thick, and <i>usually</i> strong - this brew spent a week in primary and another four weeks in secondary fermentation, then bottles for two weeks to condition.",
                 "The ABV came out a bit low and I was quite surprised due to the amount of time I left it in secondary."
             ]
+        },
+        {
+            "id": "BelgianDarkStrong.1",
+            "name": "Belgian Dark Strong",
+            "beerType": "Belgian Dubble",
+            "startDate": "2016-02-20",
+            "endDate": "2016-03-17",
+            "ingredients": [
+                {
+                    "name": "Light LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Dark LME",
+                    "quantity": 3.3,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Dark Brown Soft Candi Sugar",
+                    "quantity": 1,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Aromatic Grains",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "GR Magnum Hops",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Brewer's Gold Hops",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 29,
+            "originalGravity": 1.075,
+            "specificGravity": 1.020,
+            "beerBlurb": [
+                "The aromatic grains in this gave it quite a lot of spice. Very dark brown, slight more viscosity to the beer. Delicious!"
+            ]
+        },
+        {
+            "id": "WaterYouWheatin'.1",
+            "name": "Water You Wheatin'",
+            "beerType": "Watermelon Wheat Ale",
+            "startDate": "2015-10-17",
+            "endDate": "2015-11-21",
+            "ingredients": [
+                {
+                    "name": "Wheat LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Carapils",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Wheat",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "GR Hallertau Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Watermelon Flavoring",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 14,
+            "originalGravity": 1.050,
+            "specificGravity": 1.014,
+            "beerBlurb": [
+                "This was a fun beer, it was an interesting time of year to make it, though.", 
+                "Lightly fruity and lots of wheat. I think next time I'd add some real watermelon in to see what that does."
+            ]
+        },
+        {
+            "id": "OGWitbier.1",
+            "name": "OG Witbier",
+            "beerType": "Witbier",
+            "startDate": "2015-06-26",
+            "endDate": "2015-07-17",
+            "ingredients": [
+                {
+                    "name": "Wheat LME",
+                    "quantity": 3.3,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Wheat DME",
+                    "quantity": 2,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Pale Malt",
+                    "quantity": 1,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Wheat",
+                    "quantity": 0.5,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Oats",
+                    "quantity": 0.5,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Liberty Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "GR Tetnang",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 13,
+            "originalGravity": 1.046,
+            "specificGravity": 1.013,
+            "beerBlurb": [
+                "This was actually my first homebrew. I remember being so worried about the temperature because it was summer and my A/C in college wasn't great.",
+                "It turned out great - beautiful light gold color, lots of head because I didn't put it in secondary, straight to bottles."
+            ]
         }
     ]
 }
