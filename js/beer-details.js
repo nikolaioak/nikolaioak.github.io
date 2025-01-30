@@ -57,7 +57,7 @@ getBeers().then(beers => {
             });
         }
     });
-    beerTitle.innerText =  beerTitle;
+    beerTitle.innerHTML =  beerTitle;
     statsContainer.innerHTML += statsHTML;
     ingredContainer.innerHTML += ingredHTML;
     blurbContainer.innerHTML += blurbHTML;
