@@ -1,4 +1,4 @@
-let  beerContainer = document.getElementById('beerContainer');
+let beerContainer = document.getElementById('beer-container');
 async function getBeers() {
     const response = await fetch('https://nikolaimakes.beer/beer-data.json');
     const json = await response.json();
