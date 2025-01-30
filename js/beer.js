@@ -13,7 +13,7 @@ getBeers().then(beers => {
         let beerMon = beerDt.toLocaleString('default', { month: 'short' });
         let beerYr = beerDt.getFullYear();
         beerUrl.searchParams.append('beer', beer.id);
-        beerHTML += `<div class="beer-item"><a href="${beerUrl}"><img src="./img/nikolaimakesbeer-favicon.ico" alt="${beer.name}"/><h4>${beer.name}</h4></a><p>${beer.beerType} &bull; ${beerMon} ${beerYr}</p></div>`;
+        beerHTML += `<div class="beer-item"><a href="${beerUrl}"><img src="./img/nikolaimakesbeer-favicon.ico" alt="${beer.name}"/><h4>${beer.name}</h4></a></div>`;
     });
     beerContainer.innerHTML += beerHTML;
 });
