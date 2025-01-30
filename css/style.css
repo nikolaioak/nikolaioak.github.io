@@ -295,13 +295,21 @@ button:focus {
     width: 8%;
 }
 
+.stats-table td {
+    text-align: center;
+}
+
 .ingred-table {
     table-layout: fixed;
     width: 50%;
 }
 
-.ingred-table td.ingred-data {
+.ingred-table td.ingred-qty {
     width: 10%;
+}
+
+.ingred-table td.ingred-uom {
+    width: 15%;
 }
 
 /* modifications for smaller screens - most notably changing the navigation tab's location and appearance so it moves to the bottom of the box. */

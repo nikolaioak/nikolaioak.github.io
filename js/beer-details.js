@@ -48,8 +48,8 @@ getBeers().then(beers => {
                     ingredHTML  += `<table class="ingred-table"`;
                 }
                 ingredHTML += `<tr>
-                                <td class="ingred-data">${ing.quantity}</td>
-                                <td class="ingred-data">${ing.uom}</td>
+                                <td class="ingred-qty">${ing.quantity}</td>
+                                <td class="ingred-uom">${ing.uom}</td>
                                 <td>${ing.name}</td>
                             </tr>`;
                 if (idx == beer.ingredients.length) {
