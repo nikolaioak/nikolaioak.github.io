@@ -27,12 +27,12 @@ getBeers().then(beers => {
             let beerYr = beerDt.getFullYear();
             statsHTML += `<table class="stats-table">
                             <tr>
-                                <th>I made this...</th>
+                                <th class="made-head">I made this...</th>
                                 <th class="type-head">Type</th>
-                                <th>IBU</th>
-                                <th>OG</th>
-                                <th>SG</th>
-                                <th>ABV</th>
+                                <th class="data-head">IBU</th>
+                                <th class="data-head">OG</th>
+                                <th class="data-head">SG</th>
+                                <th class="data-head">ABV</th>
                             </tr>
                             <tr>
                                 <td>${beerMon} ${beerYr}</td>
@@ -48,8 +48,8 @@ getBeers().then(beers => {
                     ingredHTML  += `<table class="ingred-table"`;
                 }
                 ingredHTML += `<tr>
-                                <td>${ing.quantity}</td>
-                                <td>${ing.uom}</td>
+                                <td class="ingred-data">${ing.quantity}</td>
+                                <td class="ingred-data">${ing.uom}</td>
                                 <td>${ing.name}</td>
                             </tr>`;
                 if (idx == beer.ingredients.length) {
