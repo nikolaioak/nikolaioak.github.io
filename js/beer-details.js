@@ -14,6 +14,8 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 
 let beerId = params.beer;
+console.log(params);
+console.log(beerId);
 
 getBeers().then(beers => {
     let statsHTML = '';
