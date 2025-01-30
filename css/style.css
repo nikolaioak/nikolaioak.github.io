@@ -284,7 +284,7 @@ button:focus {
 }
 
 .stats-table th.made-head {
-    width: 28%;
+    width: 20%;
 }
 
 .stats-table th.type-head {
@@ -292,7 +292,7 @@ button:focus {
 }
 
 .stats-table th.data-head {
-    width: 8%;
+    width: 10%;
 }
 
 .stats-table td {
