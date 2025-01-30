@@ -21,6 +21,7 @@ getBeers().then(beers => {
     let blurbHTML =  '';
     beers.forEach(beer => {
         if (beer.id === beerId) {
+            beerTitle.innerHTML =  beer.name;
             let beerDt = new Date(Date.parse(beer.startDate));
             let beerMon = beerDt.toLocaleString('default', { month: 'short' });
             let beerYr = beerDt.getFullYear();
@@ -56,11 +57,10 @@ getBeers().then(beers => {
                 }
             });
             beer.beerBlurb.forEach(blurb => {
-                blurbHTML += `<p>${blurb}</p><br>`;
+                blurbHTML += `<p>${blurb}</p>`;
             });
         }
     });
-    beerTitle.innerHTML =  beerTitle;
     statsContainer.innerHTML += statsHTML;
     ingredContainer.innerHTML += ingredHTML;
     blurbContainer.innerHTML += blurbHTML;
