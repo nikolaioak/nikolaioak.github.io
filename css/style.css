@@ -258,7 +258,18 @@ button:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
     width: 16px;
+    
+}
+
+.beer-item object {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32px;
+    height: 32px;
 }
 
 .beer-item p {
@@ -266,7 +277,7 @@ button:focus {
     margin-bottom: 4px;
 }
 
-.beer-item a:hover > img {
+.beer-item a:hover > object {
     animation: wave-animation 0.3s infinite;
 }
 
