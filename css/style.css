@@ -261,12 +261,17 @@ button:focus {
     width: 16px;
 }
 
-.beer-item h4 {
+.beer-item p {
     text-align: center;
+    margin-bottom: 4px;
 }
 
 .beer-item a:hover > img {
     animation: wave-animation 0.3s infinite;
+}
+
+.beer-date {
+    margin-top: 4px;
 }
 
 #beer-name {
