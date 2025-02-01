@@ -1,4 +1,5 @@
 let beerTitle = document.getElementById('beer-name'),
+    beerIcon = document.getElementById('beer-icon'),
     statsContainer = document.getElementById('stats-container'),
     ingredContainer = document.getElementById('ingredients-container'),
     blurbContainer = document.getElementById('blurb-container');
@@ -22,6 +23,9 @@ getBeers().then(beers => {
     beers.forEach(beer => {
         if (beer.id === beerId) {
             beerTitle.innerHTML =  beer.name;
+            beerIcon.innerHTML = `<object data="./img/${beer.beerType.replace(/ /g, '')}.png" type="image/png">
+                                    <img src="./img/DefaultBeer.png" alt="${beer.name}"/>
+                                </object>`;
             let beerDt = new Date(Date.parse(beer.startDate));
             let beerMon = beerDt.toLocaleString('default', { month: 'short' });
             let beerYr = beerDt.getFullYear();
