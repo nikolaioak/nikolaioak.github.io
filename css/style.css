@@ -341,7 +341,6 @@ button:focus {
 
     .sidebox p {
         transform: unset;
-        -web-kit-transform: unset;
         bottom: 5px;
         top: unset;
         right: unset;
@@ -383,7 +382,7 @@ button:focus {
 
 /* temporary fix for mobile; this makes the nav menu always-expanded on mobile, because it is broken in safari on ios. */
 @media only screen and (max-width: 500px) {
-    /* .sidebox {
+    .sidebox {
         top: 440px;
         right: 0;
     }
@@ -392,7 +391,7 @@ button:focus {
     .sidebox:focus {
         top: 440px;
         right: 0;
-    } */
+    }
 
     .footer-links {
         height: 100vh;
