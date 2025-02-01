@@ -16,7 +16,7 @@ getBeers().then(beers => {
         beerHTML += `<div class="beer-item">
                         <a href="${beerUrl}">
                             <object data="./img/${beer.beerType.replace(/ /g, '')}.png" type="image/png">
-                                <img src="./img/nikolaimakesbeer-favicon.ico" alt="${beer.name}"/>
+                                <img src="./img/DefaultBeer.png" alt="${beer.name}"/>
                             </object>
                             <p>${beer.name}</p>
                         </a>
