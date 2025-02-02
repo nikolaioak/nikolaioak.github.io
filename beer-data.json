@@ -58,6 +58,139 @@
             ]
         },
         {
+            "id": "AlexandreImperial.1",
+            "name": "Alexandre Imperial",
+            "beerType": "Russian Imperial Stout",
+            "startDate": "2016-12-09",
+            "endDate": "2017-01-15",
+            "ingredients": [
+                {
+                    "name": "Dark LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Extra Dark DME",
+                    "quantity": 2,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Maltodextrin",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Caramel 60L",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Roasted Barley",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Black Barley",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Brewer's Gold Hops",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Northern Brewer Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 48,
+            "originalGravity": 1.077,
+            "specificGravity": 1.018,
+            "beerBlurb": [
+                "My first stab at a russian imperial stout, named after my brother for fun. Great winter drinker, strong and dark. Slightly thicker, like it had molasses in it due to all the malt.",
+                "I let this one sit for as long as I could allow, I actually bottled this one on new years day in 2016. Turned out quite well, probably would make some minor adjustments in a later version of the recipe."
+            ]
+        },
+        {
+            "id": "Nik'sWit.2",
+            "name": "Nik's Wit",
+            "beerType": "Witbier",
+            "startDate": "2016-08-20",
+            "endDate": "2016-09-24",
+            "ingredients": [
+                {
+                    "name": "Wheat LME",
+                    "quantity": 3.3,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Wheat DME",
+                    "quantity": 2,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Pale Malt",
+                    "quantity": 1,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Wheat",
+                    "quantity": 0.5,
+                    "uom": "lb"
+                },
+                {
+                    "name": "Oats",
+                    "quantity": 0.5,
+                    "uom": "lb"
+                },
+                {
+                    "name": "GR Hallertau Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Centennial Type Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                },
+                {
+                    "name": "Star Anise",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Coriander Seed, Crushed",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Dried Orange Peels",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                }
+            ],
+            "ibu": 13,
+            "originalGravity": "N/A",
+            "specificGravity": "N/A",
+            "beerBlurb": [
+                "I wanted another go at my witbier (this type is one of my favorites) - this time I added a bit more coriander for spice, and made sure to rack it in secondary for 2 weeks before bottling as well.",
+                "Unfortunately my hydrometer broke during brew day (at least my notes say so, I don't recall exactly what happened), so I don't have any good measurements for this one. I believe I decided that secondary wasn't quite neceessary for this beer at least because it didn't change all that much.",
+                "I also changed up the hops this time around but achieved a similar result. Deliciously spiced and wheat forward, with bitter pops of citrus."
+            ]
+        },
+        {
             "id": "BelgianDarkStrong.1",
             "name": "Belgian Dark Strong",
             "beerType": "Belgian Dubbel",
@@ -154,8 +287,8 @@
             ]
         },
         {
-            "id": "OGWitbier.1",
-            "name": "OG Witbier",
+            "id": "Nik'sWit.1",
+            "name": "Nik's Wit",
             "beerType": "Witbier",
             "startDate": "2015-06-26",
             "endDate": "2015-07-17",
