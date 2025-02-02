@@ -29,6 +29,12 @@ getBeers().then(beers => {
             let beerDt = new Date(Date.parse(beer.startDate));
             let beerMon = beerDt.toLocaleString('default', { month: 'short' });
             let beerYr = beerDt.getFullYear();
+            let abv = Math.round(((beer.originalGravity - beer.specificGravity)*131.25)*10)/10;
+            if (Number.isNaN(abv)) {
+                abv = "N/A";
+            } else {
+                abv += " %";
+            }
             statsHTML += `<table class="stats-table">
                             <tr>
                                 <th class="made-head">I made this...</th>
@@ -44,7 +50,7 @@ getBeers().then(beers => {
                                 <td>${beer.ibu}</td>
                                 <td>${beer.originalGravity}</td>
                                 <td>${beer.specificGravity}</td>
-                                <td>${Math.round(((beer.originalGravity - beer.specificGravity)*131.25)*10)/10} %</td>
+                                <td>${abv}</td>
                             </tr>
                         </table>`;
             beer.ingredients.forEach((ing, idx) => {
