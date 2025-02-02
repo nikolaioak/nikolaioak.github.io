@@ -251,7 +251,8 @@ button:focus {
 .beer-container {
     display: grid;
     grid-gap: 24px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 188px 188px 188px;
+    gap: 0.5px;
 }
 
 .beer-item img {
