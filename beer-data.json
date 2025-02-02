@@ -199,6 +199,21 @@
                     "name": "Beer Yeast",
                     "quantity": 1,
                     "uom": "pack"
+                },
+                {
+                    "name": "Star Anise",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Coriander Seed, Crushed",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Dried Orange Peels",
+                    "quantity": 0.5,
+                    "uom": "oz"
                 }
             ],
             "ibu": 13,
