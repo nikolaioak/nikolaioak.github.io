@@ -198,6 +198,10 @@ button:focus {
     z-index: 5;
 }
 
+#page-footer {
+    padding-top: 40px;
+}
+
 .footer-links {
     display: flex;
     height: 20vh;
@@ -250,9 +254,8 @@ button:focus {
 
 .beer-container {
     display: grid;
-    grid-gap: 24px;
     grid-template-columns: 188px 188px 188px;
-    gap: 0.5px;
+    gap: 24px 0.5px;
 }
 
 .beer-item img {
@@ -370,8 +373,16 @@ button:focus {
         display: none;
     }
 
+    #page-footer {
+        padding-top: 200px;
+    }
+
     .footer-links {
         height: 80vh;
+    }
+
+    .beer-container {
+        grid-template-columns: 188px 188px;
     }
 }
 
