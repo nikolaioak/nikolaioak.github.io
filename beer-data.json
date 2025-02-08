@@ -58,6 +58,53 @@
             ]
         },
         {
+            "id": "EPA.1",
+            "name": "EPA",
+            "beerType": "English Pale Ale",
+            "startDate": "2017-02-25",
+            "endDate": "2017-04-02",
+            "ingredients": [
+                {
+                    "name": "Pale Ale LME",
+                    "quantity": 3.3,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Light DME",
+                    "quantity": 2,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Caramel 60L",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "UK Golding",
+                    "quantity": 1.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "East Kent Goldings Hops (Dry Hop)",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 33,
+            "originalGravity": 1.042,
+            "specificGravity": 1.013,
+            "beerBlurb": [
+                "Definitely a malt-forward pale ale, the dry hop made it quite interesting, but not quite hoppy enough for my liking.",
+                "I think next time I would juice it up with more hops during the boil in addition to dry hopping.",
+                "Otherwise an easy drinker, would absolutely try this one again with modifications."
+            ]
+        },
+        {
             "id": "AlexandreImperial.1",
             "name": "Alexandre Imperial",
             "beerType": "Russian Imperial Stout",
