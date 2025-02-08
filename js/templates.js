@@ -16,7 +16,6 @@ let footerHTML = `
         <ul>
             <li><a href="https://untappd.com/user/Nikolaioak" rel="me">Untappd</a></li>
             <li><a href="https://github.com/nikolaioak" rel="me">GitHub</a></li>
-            <li><a href="https://my-place.social/profile/n7" rel="me">Friendica</a></li>
             <li><a href="https://pixelfed.social/@noakfield" rel="me">Pixelfed</a></li>
             <li><a href="https://todon.eu/@noakfield" rel="me">Mastodon</a></li>
             <li><a href="mailto:hello@nikolaimakes.beer" rel="me">Email</a></li>
