@@ -36,6 +36,9 @@ getTinkering().then(tinkerings => {
                                     <p>${pic.subtitle}</p>
                             </div>`;
             });
+            if (picsHTML === "") {
+                picsHTML = "<p>Must not have happened...</p>";
+            }
         }
     });
     blurbContainer.innerHTML += blurbHTML;
