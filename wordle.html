@@ -285,24 +285,23 @@
                 </header>
                 <div class="content-container">
                     <slot name="content">
-                      <div class="sections">
-    <section>
-      <div class="setting" id="saveButton">
-        <div class="text">
-          <div class="title">Save Stats</div>
-          <div class="description">Save stats to a local .json file</div>
-        </div>
-      </div>
-      <div class="setting" id="loadButton">
-        <div class="text">
-          <div class="title">Load Stats</div>
-          <div class="description">Also from a local .json file</div>
-          <input id="inputload" type="file" accept=".json">
-        </div>
-      </div>
-    </section>
-
-  </div>
+                        <div class="sections">
+                            <section>
+                                <div class="setting" id="saveButton">
+                                    <div class="text">
+                                        <div class="title">Save Stats</div>
+                                        <div class="description">Save stats to a local .json file</div>
+                                    </div>
+                                </div>
+                                <div class="setting" id="loadButton">
+                                    <div class="text">
+                                        <div class="title">Load Stats</div>
+                                        <div class="description">Also from a local .json file</div>
+                                        <input id="inputload" type="file" accept=".json">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </slot>
                 </div>
             </div>
@@ -317,6 +316,5 @@
         window.wordle.hash = 'e65ce0a5';
     })();
     </script>
-
-
-</body></html>
+</body>
+</html>
