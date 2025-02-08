@@ -1,0 +1,21 @@
+{
+    "$schema": "https://nikolaimakes.beer/tinkering-data.schema.json",
+    "tinkeringData": [
+        {
+            "id": "testpost.1",
+            "title": "Test Post",
+            "entryDate": "2025-02-08",
+            "tinkeringBlurb": [
+                "Here's some blurbs about things. I really like to be creative with technology, even if it's simple.",
+                "Sometimes I write things on the internet for people to see. It's quite rare."
+            ],
+            "tinkeringPics": [
+                {
+                    "imgPath": "./img/DefaultBeer.png",
+                    "subtitle": "A default pixelated beer icon, golden malty goodness with plenty of foam.",
+                    "alt": "A beer glass overflowing with golden fizzy beer and creamy white foam."
+                }
+            ]
+        }
+    ]
+}
