@@ -32,8 +32,8 @@ getTinkering().then(tinkerings => {
 
             tinkering.tinkeringPics.forEach(pic => {
                 picsHTML += `<div class="tinkering-pic-item">
-                                    <img src="${pic.imgPath}" alt="${pic.alt}"/>
-                                    <p>${pic.subtitle}</p>
+                                <img src="${pic.imgPath}" alt="${pic.alt}"/>
+                                <p>${pic.subtitle}</p>
                             </div>`;
             });
             if (picsHTML === "") {

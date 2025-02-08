@@ -20,11 +20,11 @@ getTinkering().then(tinkerings => {
             curYr = tinkeringYr;
         }
         tinkeringUrl.searchParams.set('tinkering', tinkering.id);
-        tinkeringHTML += `<div class="tinkering-item">
-                            <a href="${tinkeringUrl}">
-                                <h4>${tinkeringDay} ${tinkeringMon} ${tinkeringYr} &bull; ${tinkering.title}</h4>
-                            </a>
-                        </div>`;
+        tinkeringHTML +=    `<div class="tinkering-item">
+                                <a href="${tinkeringUrl}">
+                                    <h4>${tinkeringDay} ${tinkeringMon} ${tinkeringYr} &bull; ${tinkering.title}</h4>
+                                </a>
+                            </div>`;
     });
     tinkeringContainer.innerHTML += tinkeringHTML;
 });

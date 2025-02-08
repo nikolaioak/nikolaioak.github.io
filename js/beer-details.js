@@ -23,9 +23,9 @@ getBeers().then(beers => {
     beers.forEach(beer => {
         if (beer.id === beerId) {
             beerTitle.innerHTML =  beer.name;
-            beerIcon.innerHTML = `<object data="./img/${beer.beerType.replace(/ /g, '')}.png" type="image/png">
-                                    <img src="./img/DefaultBeer.png" alt="${beer.name}"/>
-                                </object>`;
+            beerIcon.innerHTML =    `<object data="./img/${beer.beerType.replace(/ /g, '')}.png" type="image/png">
+                                        <img src="./img/DefaultBeer.png" alt="${beer.name}"/>
+                                    </object>`;
             let beerDt = new Date(Date.parse(beer.startDate));
             let beerMon = beerDt.toLocaleString('default', { month: 'short' });
             let beerYr = beerDt.getFullYear();
@@ -35,33 +35,33 @@ getBeers().then(beers => {
             } else {
                 abv += " %";
             }
-            statsHTML += `<table class="stats-table">
-                            <tr>
-                                <th class="made-head">I made this...</th>
-                                <th class="type-head">Type</th>
-                                <th class="data-head">IBU</th>
-                                <th class="data-head">OG</th>
-                                <th class="data-head">SG</th>
-                                <th class="data-head">ABV</th>
-                            </tr>
-                            <tr>
-                                <td>${beerMon} ${beerYr}</td>
-                                <td>${beer.beerType}</td>
-                                <td>${beer.ibu}</td>
-                                <td>${beer.originalGravity}</td>
-                                <td>${beer.specificGravity}</td>
-                                <td>${abv}</td>
-                            </tr>
-                        </table>`;
+            statsHTML +=    `<table class="stats-table">
+                                <tr>
+                                    <th class="made-head">I made this...</th>
+                                    <th class="type-head">Type</th>
+                                    <th class="data-head">IBU</th>
+                                    <th class="data-head">OG</th>
+                                    <th class="data-head">SG</th>
+                                    <th class="data-head">ABV</th>
+                                </tr>
+                                <tr>
+                                    <td>${beerMon} ${beerYr}</td>
+                                    <td>${beer.beerType}</td>
+                                    <td>${beer.ibu}</td>
+                                    <td>${beer.originalGravity}</td>
+                                    <td>${beer.specificGravity}</td>
+                                    <td>${abv}</td>
+                                </tr>
+                            </table>`;
             beer.ingredients.forEach((ing, idx) => {
                 if (idx == 0) {
                     ingredHTML  += `<table class="ingred-table"`;
                 }
-                ingredHTML += `<tr>
-                                <td class="ingred-qty">${ing.quantity}</td>
-                                <td class="ingred-uom">${ing.uom}</td>
-                                <td>${ing.name}</td>
-                            </tr>`;
+                ingredHTML +=   `<tr>
+                                    <td class="ingred-qty">${ing.quantity}</td>
+                                    <td class="ingred-uom">${ing.uom}</td>
+                                    <td>${ing.name}</td>
+                                </tr>`;
                 if (idx == beer.ingredients.length) {
                     ingredHTML  += `</table>`;
                 }
