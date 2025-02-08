@@ -18,6 +18,7 @@
             "type": "object",
             "additionalProperties": false,
             "required": [
+                "id",
                 "name",
                 "beerType",
                 "startDate",
