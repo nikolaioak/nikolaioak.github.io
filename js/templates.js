@@ -19,6 +19,7 @@ let footerHTML = `
             <li><a href="https://pixelfed.social/@noakfield" rel="me">Pixelfed</a></li>
             <li><a href="https://todon.eu/@noakfield" rel="me">Mastodon</a></li>
             <li><a href="mailto:hello@nikolaimakes.beer" rel="me">Email</a></li>
+            <li><a href="https://nikolaimakes.beer/feed.xml">RSS</a></li>
             <li><img src="./img/nikolaimakesbeer-favicon-2.ico"/></li>
             <li><img src="./img/nikolaimakesbeer-favicon-2.ico"/></li>
         </ul>
