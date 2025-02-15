@@ -1,0 +1,60 @@
+
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <rss version="2.0">
+        <channel>
+            <title>Nikolai Makes Beer</title>
+            <link>https://nikolaimakes.beer</link>
+            <description>A page about beers nikolai makes and other stuff</description>
+            <language>en-us</language>
+    
+            <item>
+                <title>Feb 2025 - Test Post</title>
+                <link>https://nikolaimakes.beer/tinkering-details.html?tinkering=testpost.1</link>
+                <description>A post about tinkering: Test Post</description>
+            </item>
+        
+            <item>
+                <title>Dec 2022 - Alexandre Imperial</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=AlexandreImperial.2</link>
+                <description>Russian Imperial Stout</description>
+            </item>
+        
+            <item>
+                <title>Feb 2017 - EPA</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=EPA.1</link>
+                <description>English Pale Ale</description>
+            </item>
+        
+            <item>
+                <title>Dec 2016 - Alexandre Imperial</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=AlexandreImperial.1</link>
+                <description>Russian Imperial Stout</description>
+            </item>
+        
+            <item>
+                <title>Aug 2016 - Nik's Wit</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=Nik%27sWit.2</link>
+                <description>Witbier</description>
+            </item>
+        
+            <item>
+                <title>Feb 2016 - Belgian Dark Strong</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=BelgianDarkStrong.1</link>
+                <description>Belgian Dubbel</description>
+            </item>
+        
+            <item>
+                <title>Oct 2015 - Water You Wheatin'</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=WaterYouWheatin%27.1</link>
+                <description>Watermelon Wheat Ale</description>
+            </item>
+        
+            <item>
+                <title>Jun 2015 - Nik's Wit</title>
+                <link>https://nikolaimakes.beer/beer-details.html?beer=Nik%27sWit.1</link>
+                <description>Witbier</description>
+            </item>
+        
+        </channel>
+        </rss>
+    
