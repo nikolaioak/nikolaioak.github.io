@@ -5,53 +5,68 @@
             <link>https://nikolaimakes.beer</link>
             <description>A page about beers nikolai makes and other stuff</description>
             <language>en-us</language>
+            <image>
+                <title>Nikolai Makes Beer</title>
+                <description>Nikolai Makes Beer</description>
+                <link>https://nikolaimakes.beer</link>
+                <url>https://nikolaimakes.beer/img/nikolaimakesbeer-favicon.ico</url>
+            </image>
+            <lastBuildDate>Mon Feb 17 2025 09:49:47 GMT-0500 (Eastern Standard Time)</lastBuildDate>
     
             <item>
-                <title>Feb 2025 - Test Post</title>
+                <title>Test Post</title>
                 <link>https://nikolaimakes.beer/tinkering-details.html?tinkering=testpost.1</link>
                 <description>A post about tinkering: Test Post</description>
+                <pubDate>Fri Feb 07 2025 19:00:00 GMT-0500 (Eastern Standard Time)</pubDate>
             </item>
         
             <item>
-                <title>Dec 2022 - Alexandre Imperial</title>
+                <title>Alexandre Imperial</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=AlexandreImperial.2</link>
-                <description>Russian Imperial Stout</description>
+                <description>Dec 2022 - Russian Imperial Stout</description>
+                <pubDate>Sat Dec 03 2022 19:00:00 GMT-0500 (Eastern Standard Time)</pubDate>
             </item>
         
             <item>
-                <title>Feb 2017 - EPA</title>
+                <title>EPA</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=EPA.1</link>
-                <description>English Pale Ale</description>
+                <description>Feb 2017 - English Pale Ale</description>
+                <pubDate>Fri Feb 24 2017 19:00:00 GMT-0500 (Eastern Standard Time)</pubDate>
             </item>
         
             <item>
-                <title>Dec 2016 - Alexandre Imperial</title>
+                <title>Alexandre Imperial</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=AlexandreImperial.1</link>
-                <description>Russian Imperial Stout</description>
+                <description>Dec 2016 - Russian Imperial Stout</description>
+                <pubDate>Thu Dec 08 2016 19:00:00 GMT-0500 (Eastern Standard Time)</pubDate>
             </item>
         
             <item>
-                <title>Aug 2016 - Nik's Wit</title>
+                <title>Nik's Wit</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=Nik%27sWit.2</link>
-                <description>Witbier</description>
+                <description>Aug 2016 - Witbier</description>
+                <pubDate>Fri Aug 19 2016 20:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
             </item>
         
             <item>
-                <title>Feb 2016 - Belgian Dark Strong</title>
+                <title>Belgian Dark Strong</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=BelgianDarkStrong.1</link>
-                <description>Belgian Dubbel</description>
+                <description>Feb 2016 - Belgian Dubbel</description>
+                <pubDate>Fri Feb 19 2016 19:00:00 GMT-0500 (Eastern Standard Time)</pubDate>
             </item>
         
             <item>
-                <title>Oct 2015 - Water You Wheatin'</title>
+                <title>Water You Wheatin'</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=WaterYouWheatin%27.1</link>
-                <description>Watermelon Wheat Ale</description>
+                <description>Oct 2015 - Watermelon Wheat Ale</description>
+                <pubDate>Fri Oct 16 2015 20:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
             </item>
         
             <item>
-                <title>Jun 2015 - Nik's Wit</title>
+                <title>Nik's Wit</title>
                 <link>https://nikolaimakes.beer/beer-details.html?beer=Nik%27sWit.1</link>
-                <description>Witbier</description>
+                <description>Jun 2015 - Witbier</description>
+                <pubDate>Thu Jun 25 2015 20:00:00 GMT-0400 (Eastern Daylight Time)</pubDate>
             </item>
         
         </channel>
