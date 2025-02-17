@@ -58,6 +58,56 @@
             ]
         },
         {
+            "id": "CoffeePorter.1",
+            "name": "Coffee Porter",
+            "beerType": "Porter",
+            "startDate": "2018-03-03",
+            "endDate": "2018-04-07",
+            "ingredients": [
+                {
+                    "name": "Porter LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Black Barley",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Caramel 120L",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Chocolate Grains",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Cold Brew Coffee",
+                    "quantity": 16,
+                    "uom": "oz"
+                },
+                {
+                    "name": "El Dorado Hops",
+                    "quantity": 1.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 33,
+            "originalGravity": "N/A",
+            "specificGravity": "N/A",
+            "beerBlurb": [
+                "This was a fun attempt to imitate Philly Brew Co's Joe Porter, but definitely needed more coffee and stronger/darker coffee to really punch through."
+            ]
+        },
+        {
             "id": "It'sGotNutmegInIt!.1",
             "name": "It's Got Nutmeg In It!",
             "beerType": "Spiced Holiday Ale",
