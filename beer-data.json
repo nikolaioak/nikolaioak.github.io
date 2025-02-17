@@ -58,6 +58,57 @@
             ]
         },
         {
+            "id": "GermanOktoberfest.1",
+            "name": "German Oktoberfest",
+            "beerType": "German Oktoberfest",
+            "startDate": "2017-08-26",
+            "endDate": "2017-09-16",
+            "ingredients": [
+                {
+                    "name": "Munich LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Amber DME",
+                    "quantity": 1,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Caramel 60L",
+                    "quantity": 8,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Caramel 20L",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "GR Magnum Hops",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "GR Hallertau Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast (Lager)",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 35,
+            "originalGravity": 1.050,
+            "specificGravity": 1.009,
+            "beerBlurb": [
+                "This was an attempt at a German-style Oktoberfest beer. I did not have the equipment to properly lager this beer so I used a lager yeast that could also perform at ale temperatures.",
+                "If I gave this one another stab I would investigate lagering in a kegerator of sorts. Overall this was deeply amber and decent but lacked the right flavor profile for an Oktoberfest beer."
+            ]
+        },
+        {
             "id": "EPA.1",
             "name": "EPA",
             "beerType": "English Pale Ale",
