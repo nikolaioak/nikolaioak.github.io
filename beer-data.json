@@ -58,6 +58,83 @@
             ]
         },
         {
+            "id": "It'sGotNutmegInIt!.1",
+            "name": "It's Got Nutmeg In It!",
+            "beerType": "Spiced Holiday Ale",
+            "startDate": "2017-11-05",
+            "endDate": "2017-12-10",
+            "ingredients": [
+                {
+                    "name": "Light LME",
+                    "quantity": 6.6,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Golden DME",
+                    "quantity": 1,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "uom": "lbs"
+                },
+                {
+                    "name": "Caramel 80L",
+                    "quantity": 12,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Chocolate Grains",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Black Patent Grains",
+                    "quantity": 4,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Crushed Nutmeg",
+                    "quantity": 0.25,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Crushed Cinnamon",
+                    "quantity": 0.5,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Orange Peel",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Brewer's Gold Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "UK Golding Hops",
+                    "quantity": 1,
+                    "uom": "oz"
+                },
+                {
+                    "name": "Beer Yeast",
+                    "quantity": 1,
+                    "uom": "pack"
+                }
+            ],
+            "ibu": 42,
+            "originalGravity": 1.069,
+            "specificGravity": 1.013,
+            "beerBlurb": [
+                "This is actually one of my favorite brews, named after our late cat Nutmeg (hence the attempt at a calico cat in the icon). Lots of spice and sweet, this was a dark ruby-ish brown that told a lot about what was in it.",
+                "Strong and perfect for the cold months, I gave this one out as a bit of a holiday gift to some family.",
+                "<img src=\"./img/ItHasNutmegInIt-2017.JPG\" alt=\"two bottles of beer with a white label and black text stating It's Got Nutmeg In It! 2017 Holiday Ale.\"/>"
+            ]
+        },
+        {
             "id": "GermanOktoberfest.1",
             "name": "German Oktoberfest",
             "beerType": "German Oktoberfest",
